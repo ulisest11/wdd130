@@ -1,4 +1,3 @@
-/* Estilo para la barra de navegación */
 nav {
     background-color: steelblue;
     padding: 1rem;
@@ -16,13 +15,13 @@ nav a {
     color: #fff;
 }
 
-/* Estilo para el título */
+
 h1 {
     color: darkblue;
     border-bottom: 2px solid darkblue;
 }
 
-/* Estilo para las imágenes */
+
 img {
     width: 150px;
     height: auto;
@@ -31,26 +30,26 @@ img {
     box-shadow: 0 0 30px gray;
 }
 
-/* Paddings generales */
+
 p {
     padding: 10px;
 }
 
-/* Estilo para el contenedor principal */
+
 main {
     max-width: 840px;
-    grid-column: 2/3; /* Mantener la estructura del grid */
+    grid-column: 2/3; 
     margin: 1rem;
 }
 
-/* Estilo para el contenedor grid */
+
 .grid {
     display: grid;
-    grid-template-columns: 1fr 2fr; /* Mantener las columnas como están */
+    grid-template-columns: 1fr 2fr; 
     align-items: center;
 }
 
-/* Estilo para el aside */
+
 aside.box {
     width: 20rem;
     background-color: #eee;
@@ -65,20 +64,20 @@ aside.box img {
     margin-bottom: 1rem;
 }
 
-/* Aseguramos que el aside se ubique en la primera columna del grid */
+
 aside {
-    grid-column: 1/2; /* Mantener el aside en la primera columna */
+    grid-column: 1/2; 
     grid-row: 1/2;
 }
 
-/* Estilo para el footer */
+
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
 }
 
-/* Estilo del header y footer */
+
 header, .grid, footer {
     max-width: 840px;
     margin: 0 auto;
