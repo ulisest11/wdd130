@@ -19,7 +19,7 @@ nav a {
 /* Estilo para el título */
 h1 {
     color: darkblue;
-    border-bottom: 2px solid darkblue; /* Se agregó un borde inferior */
+    border-bottom: 2px solid darkblue;
 }
 
 /* Estilo para las imágenes */
@@ -39,14 +39,14 @@ p {
 /* Estilo para el contenedor principal */
 main {
     max-width: 840px;
-    grid-column: 2/3; /* Este contenedor ahora ocupa la segunda columna en el grid */
+    grid-column: 2/3; /* Mantener la estructura del grid */
     margin: 1rem;
 }
 
 /* Estilo para el contenedor grid */
 .grid {
     display: grid;
-    grid-template-columns: 1fr 2fr; /* Definir columnas de 1fr para el aside y 2fr para el main */
+    grid-template-columns: 1fr 2fr; /* Mantener las columnas como están */
     align-items: center;
 }
 
@@ -67,8 +67,7 @@ aside.box img {
 
 /* Aseguramos que el aside se ubique en la primera columna del grid */
 aside {
-    position: relative;
-    grid-column: 1/2; /* El aside ocupa la primera columna */
+    grid-column: 1/2; /* Mantener el aside en la primera columna */
     grid-row: 1/2;
 }
 
