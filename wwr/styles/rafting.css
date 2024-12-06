@@ -149,14 +149,14 @@ section h2 {
 
 .adventure-images {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Reduce de 5 a 3 columnas */
+    grid-template-columns: repeat(3, 1fr); 
     gap: 10px;
     justify-items: center;
 }
 
 .adventure-images img {
-    max-width: 100%; /* Asegura que las imágenes no se desborden */
-    height: auto; /* Mantiene la proporción de las imágenes */
+    max-width: 100%; 
+    height: auto; 
     border-radius: 8px;
     border: 2px solid var(--accent1-color);
 }
