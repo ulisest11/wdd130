@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page - Whitewater Rafting Adventures</title>
-    <meta name="author" content="Ulises Tzaj">
+    <title>White Water Rafting</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
@@ -12,62 +11,72 @@
 </head>
 <body>
     <header>
+        <div class="header-logo">
+            <img src="images/whitewater-rafting.jpg" alt="WWR Rafting Logo">
+        </div>
+        <h1>White Water Rafting Adventures</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
                 <li><a href="trips.html">Trips</a></li>
+                <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <!-- Hero Section -->
-        <section class="hero">
-            <h1>Discover the Thrill of White Water Rafting</h1>
-        </section>
+    <div class="hero">
+        <img src="images/rafting-hero.jpg" alt="Rafting Adventure">
+        <h1>Join Us for an Exciting Adventure!</h1>
+        <article>
+            <img src="images/rafting.jpg" alt="Rafting Experience">
+            <h2>Experience the thrill of white water rafting!</h2>
+            <p>We offer guided rafting trips on some of the most exciting rivers. Whether you're a beginner or an expert, we have the perfect adventure for you!</p>
+        </article>
+    </div>
 
-        <!-- Call to Action -->
-        <section class="call-to-action">
-            <p>Get ready for unforgettable adventures!</p>
-            <a href="trips.html" class="cta-button">Explore Trips</a>
-        </section>
+    <section class="newsletter">
+        <h2>Sign Up for Our Newsletter</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit" class="submit-button">Sign Up</button>
+        </form>
+    </section>
 
-        <!-- About Section with Grid -->
-        <section class="about-grid">
-            <div class="about-item">
-                <img src="images/rafting1.jpg" alt="Rafting adventure">
-                <h2>Adventure Awaits</h2>
-                <p>Experience breathtaking rapids with our expert-guided tours.</p>
-            </div>
-            <div class="about-item">
-                <img src="images/rafting2.jpg" alt="Beautiful rivers">
-                <h2>Scenic Routes</h2>
-                <p>Discover nature’s beauty while enjoying thrilling rides.</p>
-            </div>
-            <div class="about-item">
-                <img src="images/rafting3.jpg" alt="Group rafting experience">
-                <h2>Team Fun</h2>
-                <p>Perfect for friends, families, and team-building adventures.</p>
-            </div>
-        </section>
+    <section class="cta">
+        <h2>Ready for the Adventure?</h2>
+        <a href="trips.html" class="cta-link">Browse Our Trips</a>
+    </section>
 
-        <!-- Newsletter Signup -->
-        <section class="newsletter">
-            <h2>Stay Connected</h2>
-            <p>Subscribe to our newsletter for updates and exclusive offers.</p>
-            <form action="#" method="POST">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <button type="submit">Subscribe</button>
-            </form>
-        </section>
-    </main>
+    <section class="grid-layout">
+        <div class="grid-item">
+            <img src="images/river.jpg" alt="River Adventure">
+            <h3>Adventurous Rafting Trips</h3>
+            <p>Explore the wildest rivers with our expert guides.</p>
+        </div>
+        <div class="grid-item">
+            <img src="images/safety.jpg" alt="Safety Measures">
+            <h3>Safety First</h3>
+            <p>Your safety is our priority. Learn about our safety measures.</p>
+        </div>
+    </section>
 
     <footer>
-        <p>&copy; 2024 WWR Rafting. All Rights Reserved.</p>
+        <p>©2024 🌵 Whitewater Rafting 🌵 Ulises Tzaj</p>
+        <nav class="sociallinks">
+            <a href="https://www.facebook.com/">
+                <img src="images/facebook.png" alt="facebook">
+            </a>
+            <a href="https://x.com/">
+                <img src="images/twitter.png" alt="twitter">
+            </a>
+            <a href="https://www.instagram.com/">
+                <img src="images/instagram.png" alt="instagram">
+            </a>
+        </nav>
     </footer>
 </body>
 </html>
-
