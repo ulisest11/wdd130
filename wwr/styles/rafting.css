@@ -433,3 +433,104 @@ footer .sociallinks img {
     width: 30px;
     height: auto;
 }
+
+    /* Específicos para la página de Trips */
+    .grid-layout {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Ajusta el número de columnas según el espacio disponible */
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .grid-item {
+        background-color: var(--secondary-color);
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .grid-item:hover {
+        transform: translateY(-5px);
+    }
+
+    .grid-item img {
+        width: 100%;
+        border-radius: 8px;
+        margin-bottom: 15px;
+        height: 200px; /* Ajusta el tamaño de las imágenes */
+        object-fit: cover;
+    }
+
+    .grid-item h3 {
+        color: var(--primary-color);
+        font-size: 1.6rem;
+        margin-bottom: 10px;
+    }
+
+    .grid-item p {
+        color: var(--accent2-color);
+        font-size: 1rem;
+    }
+
+    /* Llamado a la acción */
+    .cta {
+        text-align: center;
+        padding: 30px;
+        background-color: var(--primary-color);
+        color: var(--secondary-color);
+        border-radius: 10px;
+    }
+
+    .cta h2 {
+        margin: 0;
+        font-size: 2rem;
+    }
+
+    .cta .cta-link {
+        color: var(--secondary-color);
+        background-color: var(--accent1-color);
+        padding: 10px 20px;
+        text-decoration: none;
+        font-size: 1.2rem;
+        border-radius: 5px;
+        margin-top: 10px;
+        transition: background-color 0.3s;
+    }
+
+    .cta .cta-link:hover {
+        background-color: var(--primary-color);
+        color: var(--secondary-color);
+    }
+
+    /* Estilos para la tabla de viajes disponibles */
+    .trip-table table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    .trip-table th, .trip-table td {
+        text-align: left;
+        padding: 12px;
+        border-bottom: 1px solid var(--accent1-color);
+    }
+
+    .trip-table th {
+        background-color: var(--primary-color);
+        color: var(--secondary-color);
+        font-size: 1.1rem;
+    }
+
+    .trip-table td {
+        background-color: var(--secondary-color);
+        color: var(--accent2-color);
+        font-size: 1rem;
+    }
+
+    .trip-table tr:hover {
+        background-color: var(--accent1-color);
+        cursor: pointer;
+    }
+
