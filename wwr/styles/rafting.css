@@ -286,7 +286,7 @@ textarea {
     font-weight: bold;
     color: var(--accent2-color);
 }
-/* --- Hero Section --- */
+
 .hero {
     position: relative;
     text-align: center;
@@ -330,7 +330,7 @@ textarea {
     height: auto;
 }
 
-/* --- Newsletter Section --- */
+
 .newsletter {
     background-color: var(--secondary-color);
     padding: 20px;
@@ -370,7 +370,7 @@ textarea {
     background-color: var(--accent1-color);
 }
 
-/* --- Call to Action Section --- */
+
 .cta {
     text-align: center;
     padding: 20px;
@@ -397,7 +397,7 @@ textarea {
     color: var(--secondary-color);
 }
 
-/* --- Grid Layout Section --- */
+
 .grid-layout {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -424,7 +424,7 @@ textarea {
     margin-bottom: 10px;
 }
 
-/* --- Footer Adjustments --- */
+
 footer .sociallinks a {
     margin: 0 10px;
 }
@@ -434,10 +434,10 @@ footer .sociallinks img {
     height: auto;
 }
 
-    /* Específicos para la página de Trips */
+    
     .grid-layout {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Ajusta el número de columnas según el espacio disponible */
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
         gap: 20px;
         padding: 20px;
     }
@@ -459,7 +459,7 @@ footer .sociallinks img {
         width: 100%;
         border-radius: 8px;
         margin-bottom: 15px;
-        height: 200px; /* Ajusta el tamaño de las imágenes */
+        height: 200px; 
         object-fit: cover;
     }
 
@@ -474,7 +474,7 @@ footer .sociallinks img {
         font-size: 1rem;
     }
 
-    /* Llamado a la acción */
+    
     .cta {
         text-align: center;
         padding: 30px;
@@ -504,7 +504,7 @@ footer .sociallinks img {
         color: var(--secondary-color);
     }
 
-    /* Estilos para la tabla de viajes disponibles */
+    
     .trip-table table {
         width: 100%;
         border-collapse: collapse;
